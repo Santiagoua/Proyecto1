@@ -1,4 +1,7 @@
 import React from 'react';
+import Search from './Search';
+import Dropdown from './Dropdown';
+import './App.css';
 
 
 function Menu(_props) {
@@ -9,11 +12,11 @@ function Menu(_props) {
                     {_props.title}
                     
                 </div>
-                <div className="Search">
-                    <SearchBox />
+                <div className="search">
+                    <Search />
                 </div>
-                <div className="actions">
-                    <button className="buton btn-blue">+ Agregar vlan</button>
+                <div className='Dropdown'>
+                    <Dropdown/>
                 </div>
 
             </div>
