@@ -1,6 +1,6 @@
 import React from 'react';
 import Dropdown from '../Component2/Dropdown';
-import NavbarComponent from './Navbar';
+import NavBar from '..Component6/NavBar';
 import './Menu.css';
 
 function Menu(_props) {
@@ -16,8 +16,9 @@ function Menu(_props) {
                 </div>
                 <div className='Dropdown'>
                     <Dropdown/>
-                </div><div>
-                    <NavbarComponent />
+                </div>
+                <div className='NavBar'>
+                    <NavBar />
                 </div>
                 <button onClick={handleClick}>Logout</button>
         

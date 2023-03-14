@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
-function NavbarComponent() {
+function NavBar() {
   return (
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">Mi sitio web</Navbar.Brand>
@@ -22,4 +22,4 @@ function NavbarComponent() {
   );
 }
 
-export default NavbarComponent;
+export default NavBar;
