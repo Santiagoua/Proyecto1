@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from './Components/Component1/Menu'
+import Menu from '../Component1/Menu'
 
 function Vlan(_props) {
     return(
