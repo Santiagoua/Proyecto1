@@ -14,7 +14,7 @@ function NavBar() {
 }
 const vlan= ()=>ReactDOM.render(<Vlan />, document.getElementById('root'));
 const rutas= ()=>ReactDOM.render(<Rutas />, document.getElementById('root'));
-const interface= ()=>ReactDOM.render(<Interface />, document.getElementById('root'));
+const interfaz= ()=>ReactDOM.render(<Interface />, document.getElementById('root'));
 const home= ()=>ReactDOM.render(<Menu />, document.getElementById('root'));
   return (
     <Navbar bg="light" expand="lg">
@@ -23,19 +23,12 @@ const home= ()=>ReactDOM.render(<Menu />, document.getElementById('root'));
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link onClick={home} >Menu</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <Nav.Link href="#link">Contacto</Nav.Link>
+            <NavDropdown title="Accion" id="basic-nav-dropdown">
               <NavDropdown.Item onClick={vlan} >VLAN</NavDropdown.Item>
               <NavDropdown.Item onClick={rutas} >Rutas</NavDropdown.Item>
-              <NavDropdown.Item onClick={interface} >Interface</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action s
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item onClick={interfaz} >Interface</NavDropdown.Item>
+            
             </NavDropdown>
             <Nav.Link href="#link" onClick={handleClick}>Salir</Nav.Link>
           

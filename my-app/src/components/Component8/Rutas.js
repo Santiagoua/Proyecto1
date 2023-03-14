@@ -1,10 +1,14 @@
 import React from 'react';
-import './Menu.css';
+import Menu from '../Component1/Menu';
+
 function Rutas(_props) {
     return(
+        <>
+        <Menu/>
         <div className="actions">
         <button className="buton btn-blue">+ Agregar Rutas</button>
     </div>
+    </>
         );
     }
 

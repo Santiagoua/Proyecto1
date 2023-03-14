@@ -1,12 +1,14 @@
 import React from 'react';
 import Menu from '../Component1/Menu'
+import './Vlan';
+import Button from './Button';
 
 function Vlan(_props) {
     return(
         <>
         <Menu/>
-        <div className="actions">
-        <button className="buton btn-blue">+ Agregar vlan</button>
+        <div>
+      <Button text="Agregar VLAN" />
     </div>
     </>
         );
