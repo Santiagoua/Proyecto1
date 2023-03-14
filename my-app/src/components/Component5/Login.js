@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import Menu from '../Component1/Menu'
+import Menu from '/..Component/Component1/Menu';
 import "./Login.css";
-function Menu(){
+function Login(){
   const email=useRef()
   const password=useRef()
   const getEmail=localStorage.getItem("emailData")
