@@ -4,9 +4,8 @@ import ReactDOM from 'react-dom';
 function App() {
   return (
     <div>
-      <h1>Mi Página Web</h1>
-      <p>Bienvenido a mi página web.</p>
-      <Login />
+      <h1>CORPORACIONES.CORP</h1>
+      <p>Las redes en tus manos</p>
     </div>
   );
 }
