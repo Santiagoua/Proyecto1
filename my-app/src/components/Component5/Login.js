@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Menu from '/..Component/Component1/Menu';
+import Menu from '../Component1/Menu';
 import "./Login.css";
 function Login(){
   const email=useRef()
@@ -7,8 +7,8 @@ function Login(){
   const getEmail=localStorage.getItem("emailData")
   const getPassword=localStorage.getItem("passwordData")
   const handleSubmit=()=>{
-      if(email.current.value==="abc@gmail.com"&&password.current.value==="12345"){
-          localStorage.setItem("emailData","abc@gmail.com")
+      if(email.current.value==="abc@corporaciones.corp"&&password.current.value==="12345"){
+          localStorage.setItem("emailData","abc@corporaciones.corp")
           localStorage.setItem("passwordData","12345")
       }
   }

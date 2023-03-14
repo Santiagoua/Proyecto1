@@ -2,8 +2,6 @@ import React from 'react';
 import Dropdown from '../Component2/Dropdown';
 import './Menu.css';
 
-
-
 function Menu(_props) {
     const handleClick=()=>{
         localStorage.clear();
