@@ -1,7 +1,7 @@
 import React from 'react';
 import Dropdown from '../Component2/Dropdown';
 import './Menu.css';
-import Login from '../Component5/Login';
+
 
 
 function Menu(_props) {
@@ -19,9 +19,7 @@ function Menu(_props) {
                 <div className='Dropdown'>
                     <Dropdown/>
                 </div>
-                <div className='Login'>
-                    <Login/>
-                </div>
+
                 <button onClick={handleClick}>Logout</button>
         
             </div>
