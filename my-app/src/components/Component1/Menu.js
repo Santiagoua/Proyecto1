@@ -1,5 +1,6 @@
 import React from 'react';
 import Dropdown from '../Component2/Dropdown';
+import NavbarComponent from './Navbar';
 import './Menu.css';
 
 function Menu(_props) {
@@ -11,13 +12,13 @@ function Menu(_props) {
         <div className="container">
             <div className="subcontainer">
                 <div className="Logo">
-                    {_props.title}
-                    
+                    {_props.title}                    
                 </div>
                 <div className='Dropdown'>
                     <Dropdown/>
+                </div><div>
+                    <NavbarComponent />
                 </div>
-
                 <button onClick={handleClick}>Logout</button>
         
             </div>
