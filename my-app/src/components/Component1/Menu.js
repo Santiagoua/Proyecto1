@@ -1,31 +1,24 @@
 import React from 'react';
-import Dropdown from '../Component2/Dropdown';
-import NavBar from '..Component6/NavBar';
+import NavBar from '../Component6/NavBar';
+import '../../App.css';
+import Footer from '../Component3/Footer';
 import './Menu.css';
 
 function Menu(_props) {
-    const handleClick=()=>{
-        localStorage.clear();
-        window.location.reload();
-    }
-    return(
-        <div className="container">
-            <div className="subcontainer">
-                <div className="Logo">
-                    {_props.title}                    
-                </div>
-                <div className='Dropdown'>
-                    <Dropdown/>
-                </div>
-                <div className='NavBar'>
-                    <NavBar />
-                </div>
-                <button onClick={handleClick}>Logout</button>
-        
-            </div>
 
-        </div>
-          
+    return(
+        <>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+  crossorigin="anonymous"/>
+   <NavBar/>
+   <Footer/>
+        </>
+       
+
         )
     }
 
