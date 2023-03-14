@@ -1,6 +1,6 @@
 import React from 'react';
-import Search from './Search';
-import Dropdown from './Dropdown';
+import Search from '../../Search';
+import Dropdown from '../Component2/Dropdown';
 import './App.css';
 
 
