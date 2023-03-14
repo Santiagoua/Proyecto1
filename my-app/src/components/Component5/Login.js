@@ -19,7 +19,7 @@ function Login(){
               getEmail&&getPassword?
               <Menu/>:
           <form onSubmit={handleSubmit}>
-          <h2>Bienvendio</h2>
+          <h2>Bienvenido</h2>
               <div>
                   <input type="text" ref={email} />
               </div>
