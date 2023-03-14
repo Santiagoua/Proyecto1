@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from '../Component1/Menu'
-import './Vlan';
+import './Vlan.css';
 import Button from './Button';
 
 function Vlan(_props) {
@@ -8,7 +8,7 @@ function Vlan(_props) {
         <>
         <Menu/>
         <div>
-      <Button text="Agregar VLAN" />
+      <Button/>
     </div>
     </>
         );

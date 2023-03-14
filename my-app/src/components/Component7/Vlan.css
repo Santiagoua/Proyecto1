@@ -1,14 +1,28 @@
-.Button {
-    background-color: blue;
-    color: white;
-    font-size: 16px;
-    padding: 8px 16px;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-  }
-  .button-container {
+.textInputContainer {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
   }
+  
+  .textInput {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .addButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
