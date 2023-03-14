@@ -8,7 +8,7 @@ function App() {
  
   return (
     <div className='app'>
-      <Menu/>
+      <Menu title="CORPORACIONES.CORP"/>
       <List/>
     </div>
   );
