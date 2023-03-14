@@ -17,7 +17,7 @@ function TextInput() {
   return (
     <div className="textInputContainer">
       <input type="text" placeholder="Escribe aquí" value={inputText} onChange={handleInputChange} className="textInput" />
-      <button onClick={handleAddItem} className="addButton">Agregar</button>
+      <button onClick={handleAddItem} className="addButton">Agregar Vlan</button>
       <ul>
         {items.map((item, index) => (
           <li key={index}>{item}</li>
