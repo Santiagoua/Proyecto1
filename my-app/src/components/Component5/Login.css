@@ -1,0 +1,18 @@
+input{
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    margin: 5px;
+}
+button{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+body {
+    text-align: center;
+}
+form {
+    margin-top: 100px;
+    display: inline-block;
+}

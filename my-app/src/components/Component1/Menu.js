@@ -1,10 +1,14 @@
 import React from 'react';
-import Search from '../../Search';
 import Dropdown from '../Component2/Dropdown';
-import './App.css';
+import './Menu.css';
+import Login from '../Component5/Login';
 
 
 function Menu(_props) {
+    const handleClick=()=>{
+        localStorage.clear();
+        window.location.reload();
+    }
     return(
         <div className="container">
             <div className="subcontainer">
@@ -12,13 +16,14 @@ function Menu(_props) {
                     {_props.title}
                     
                 </div>
-                <div className="search">
-                    <Search />
-                </div>
                 <div className='Dropdown'>
                     <Dropdown/>
                 </div>
-
+                <div className='Login'>
+                    <Login/>
+                </div>
+                <button onClick={handleClick}>Logout</button>
+        
             </div>
 
         </div>

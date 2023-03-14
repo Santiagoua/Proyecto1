@@ -1,0 +1,14 @@
+select {
+    background-color: #fff;
+    font-size: 16px;
+  }
+  option {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  option:checked {
+    background-color: #000;
+    color: #fff;
+  }
+    
