@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import WeatherButton from './WeatherButton';
 import { getWeatherData } from './getWeather';
+import Menu from '../Component1/Menu';
 import './Clima.css';
 
 const Weather = () => {
@@ -13,6 +14,10 @@ const Weather = () => {
   };
 
   return (
+
+    <>
+    <Menu/>
+    
     <div className="weather-container">
       <WeatherButton onClick={handleButtonClick} />
       {weatherData && (
@@ -25,6 +30,7 @@ const Weather = () => {
       )}
       <input type="text" placeholder="Enter city" value={city} onChange={(e) => setCity(e.target.value)} />
     </div>
+    </>
   );
 };
 

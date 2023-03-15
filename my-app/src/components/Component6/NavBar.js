@@ -7,6 +7,7 @@ import Vlan from '../Component7/Vlan'
 import Menu from '../Component1/Menu'
 import Rutas from '../Component8/Rutas'
 import Interface from '../Component9/Interface';
+import Weather from '../Component10/Weather';
 function NavBar() {
   const handleClick=()=>{
     localStorage.clear();
@@ -15,6 +16,7 @@ function NavBar() {
 const vlan= ()=>ReactDOM.render(<Vlan />, document.getElementById('root'));
 const rutas= ()=>ReactDOM.render(<Rutas />, document.getElementById('root'));
 const interfaz= ()=>ReactDOM.render(<Interface />, document.getElementById('root'));
+const Clima= ()=>ReactDOM.render(<Weather />, document.getElementById('root'));
 const home= ()=>ReactDOM.render(<Menu />, document.getElementById('root'));
   return (
     <Navbar bg="light" expand="lg">
@@ -28,6 +30,7 @@ const home= ()=>ReactDOM.render(<Menu />, document.getElementById('root'));
               <NavDropdown.Item onClick={vlan} >VLAN</NavDropdown.Item>
               <NavDropdown.Item onClick={rutas} >Rutas</NavDropdown.Item>
               <NavDropdown.Item onClick={interfaz} >Interface</NavDropdown.Item>
+              <NavDropdown.Item onClick={Clima} >Clima</NavDropdown.Item>
             
             </NavDropdown>
             <Nav.Link href="#link" onClick={handleClick}>Salir</Nav.Link>
