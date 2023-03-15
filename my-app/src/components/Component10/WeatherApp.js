@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import ButtonC from './ButtonC';
+import WeatherButton from './WeatherButton';
 
-const Clima = () => {
+const WeatherApp = () => {
   const [weatherData, setWeatherData] = useState(null);
 
   const fetchWeatherData = async () => {
@@ -15,16 +15,16 @@ const Clima = () => {
   };
 
   return (
-    <div className="Clima">
+    <div className="weather-app">
       {weatherData && (
         <div>
           <p>{weatherData.name}</p>
           <p>{weatherData.weather[0].description}</p>
         </div>
       )}
-      <ButtonC onClick={fetchWeatherData} />
+      <WeatherButton onClick={fetchWeatherData} />
     </div>
   );
 };
 
-export default Clima;
+export default WeatherApp;
