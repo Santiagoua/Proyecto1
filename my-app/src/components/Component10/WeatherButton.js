@@ -1,10 +1,13 @@
 import React from 'react';
 
+
 const WeatherButton = ({ onClick }) => {
   return (
-    <button className="weather-button" onClick={onClick}>
-      Obtener clima
-    </button>
+    <div className="button-container">
+      <button className="weather-button" onClick={onClick}>
+        Obtener Clima
+      </button>
+    </div>
   );
 };
 
