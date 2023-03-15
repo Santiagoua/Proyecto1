@@ -2,7 +2,7 @@ import React from 'react';
 
 const ButtonC = ({ onClick }) => {
   return (
-    <button className="weather-button" onClick={onClick}>
+    <button className="ButtonC" onClick={onClick}>
       Obtener clima
     </button>
   );
