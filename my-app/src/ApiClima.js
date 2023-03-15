@@ -4,7 +4,7 @@ import axios from 'axios';
 function Weather() {
   const [weatherData, setWeatherData] = useState(null);
   const API_KEY = '3c8156ef885aebd3cfae780f4bf9283b';
-  const CITY = 'Medellin';
+  const CITY = 'MEDELLIN';
 
   useEffect(() => {
     axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${CITY}&appid=${API_KEY}`)
@@ -17,9 +17,9 @@ function Weather() {
   }, []);
 
   return (
-    <div>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       {weatherData ? (
-        <div>
+        <div style={{ textAlign: 'center' }}>
           <h1>{weatherData.name}</h1>
           <p>{weatherData.weather[0].description}</p>
           <p>{weatherData.main.temp} °C</p>
