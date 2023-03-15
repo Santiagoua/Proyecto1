@@ -8,8 +8,8 @@ function Vlan(_props) {
         <>
         <Menu/>
         <div>
-      <Button/>
-    </div>
+          <Button/>
+        </div>
     </>
         );
     }
