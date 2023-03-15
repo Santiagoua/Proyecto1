@@ -1,9 +1,9 @@
-.weather-app {
+.Clima {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.weather-button {
+.ButtonC{
   margin-top: 20px;
 }
