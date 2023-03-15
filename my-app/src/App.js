@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Login from './Components/Component5/Login';
-import ApiClima from './ApiClima'
+
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 <script>var Alert = ReactBootstrap.Alert;</script>
     <div className='app'>
       <Login/>
-      <ApiClima/>
+     
            
     </div>
     </>

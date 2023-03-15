@@ -1,0 +1,9 @@
+.weather-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-button {
+  margin-top: 20px;
+}

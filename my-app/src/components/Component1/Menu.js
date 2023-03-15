@@ -3,6 +3,7 @@ import NavBar from '../Component6/NavBar';
 import '../../App.css';
 import Footer from '../Component3/Footer';
 import './Menu.css';
+import Clima from '../Component10/Clima';
 
 function Menu(_props) {
 
@@ -16,6 +17,7 @@ function Menu(_props) {
   crossorigin="anonymous"/>
    <NavBar/>
    <Footer/>
+   <Clima/>
         </>
        
 
